@@ -1,0 +1,71 @@
+header {
+    width: 100%;
+}
+html, body {
+    height: 100%;
+}
+.nav_1 ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#logo {
+    height: 30px;
+    width: 92px;
+    border: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#mic {
+    height: 20px;
+    width: 15px;
+    position: relative;
+    top: 4px;
+    left: -70px;
+}
+#search {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    top: 4px;
+    left: -60px;
+}
+#search_bar {
+    height: 44px;
+    width: 800px;
+}
+#bar {
+    height: 42px;
+    width: 650px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid rgb(231, 230, 230);
+    padding: 0 20px;
+    margin-top: 7px;
+}
+.nav_2 {
+    display: flex;
+  flex-direction: row;
+  /*margin-left: auto;*/
+  align-items: center;
+  /*justify-content: flex-start;*/
+
+}
+#products {
+    height: 20px;
+    width: 20px;
+    opacity: 0.5;
+}
+#products:hover {
+    opacity: 1;
+}
+ul {
+    list-style-type: none ;
+}
+li {
+    display: inline-block;
+}
