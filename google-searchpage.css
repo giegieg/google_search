@@ -156,10 +156,11 @@ li {
 }
 .how {
     padding-bottom: 0px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
+    height: 35px;
 }
 .wix_ad h2 {
-    margin-top: 5px;
+    margin-top: 0;
     margin-left: 155px;
     margin-bottom: 0px;
 }
@@ -167,15 +168,16 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: flex-start; 
-    /*margin-left: 155px; */
     border: 1px solid skyblue;
+   }
+h2 a {
     font-size: 18px;
     font-family: arial, sans-serif;
     font-weight: normal;
     color: #1a0dab;
     text-decoration: none;
     height: 20px;
-   }
+}
 h2 a:hover {
     text-decoration: underline;
 }
@@ -183,10 +185,12 @@ h2 a:hover {
     /*display: flex;
     flex-direction: row;
     justify-content: flex-start; */
-    border: 1px solid;
-    margin-top: 0px;
-    margin-bottom: 0px;
+   /* border: 1px solid olive; */
+    margin-top: -5px;
+    margin-bottom: 5px;
     margin-left: 155px;
+    height: 20px;
+    align-items: center;
 }
 .ad_site a {
     text-decoration: none;
@@ -211,4 +215,63 @@ h3 a {
     font-weight: normal;
     color: rgb(0, 102, 33);  
     margin-right: 2px;
+}
+h4 {
+    color: #545454;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    width: 592px;
+    margin-left: 155px;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 36px;
+    line-height: 20px;
+}
+.options ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 640px;
+    border: 1px solid darkgoldenrod;
+    margin-left: 170px;
+    padding-left: 0;
+    height: 60px;
+}
+#free_build {
+    border: 1px solid blue;
+    margin-top: 0px;
+    width: 50%;
+    margin-left: 0;
+    padding-left: 0;
+}
+#free_host{
+    margin-top: 0px;
+    width: 50%;
+    border: 1px solid palegreen;
+}
+#free_build h2 {
+    margin-left: 0;  
+}
+#free_build h4 {
+    margin-left: 0;
+    width: 200px;
+    margin-top: -20px;
+}
+#free_host h2 {
+    margin-left: 0;
+}
+#free_host h4 {
+    margin-left: 0;
+    width: 220px;
+    margin-top: -20px;
+}
+.guide {
+    border: 1px solid rgb(223, 225, 229);
+    width: 598px;
+    border-radius: 8px;
+}
+.guide li {
+    display: list-item;
 }
