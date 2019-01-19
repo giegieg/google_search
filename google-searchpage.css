@@ -152,4 +152,63 @@ li {
     color: grey;
     font-family: arial, sans-serif;
     font-size: 13px;
+  /*  border: 1px solid orange; */
+}
+.how {
+    padding-bottom: 0px;
+    border: 1px solid red;
+}
+.wix_ad h2 {
+    margin-top: 5px;
+    margin-left: 155px;
+    margin-bottom: 0px;
+}
+.wix_ad h2 a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    /*margin-left: 155px; */
+    border: 1px solid skyblue;
+    font-size: 18px;
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    color: #1a0dab;
+    text-decoration: none;
+    height: 20px;
+   }
+h2 a:hover {
+    text-decoration: underline;
+}
+.ad_site {
+    /*display: flex;
+    flex-direction: row;
+    justify-content: flex-start; */
+    border: 1px solid;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 155px;
+}
+.ad_site a {
+    text-decoration: none;
+}
+h3 {
+    margin: 0;
+}
+h3 a {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    color: rgb(0, 102, 33);
+    text-decoration: none;
+}
+#Ad {
+    border: 1px solid rgb(0, 102, 33);
+    border-radius: 3px;
+    padding: 1px 3px;
+    font-size: 11px;
+    background-color: white;
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    color: rgb(0, 102, 33);  
+    margin-right: 2px;
 }
