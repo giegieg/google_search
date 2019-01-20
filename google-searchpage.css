@@ -366,3 +366,14 @@ h4 {
     right: 460px;
     padding-top: 10px;
 }
+.fdbck {
+    margin-left: 760px;
+    color: #777;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    text-decoration: none;
+}
+.fdbck:hover {
+    text-decoration: underline;
+}
