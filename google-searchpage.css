@@ -12,7 +12,6 @@ li {
 .nav_1 {
     display: flex;
     flex-direction: row;
-   /*border: 1px solid green; */
     justify-content: space-between;
     height: 50px;
     margin-top: 15px;
@@ -23,7 +22,6 @@ li {
     display: flex;
     flex-direction: row;
     align-items: center;
-    /*border: 1px solid blue; */
     justify-content: initial;
     padding: 0;
    }
@@ -31,7 +29,6 @@ li {
     height: 30px;
     width: 92px;
     border: 0;
-    /*border: 1px solid; */
     padding-left: 20px;
     margin-top: 10px;
     
@@ -53,7 +50,6 @@ li {
 #search_bar {
     height: 44px;
     width: 800px;
-    /*border: 1px solid red; */
     padding-left: 20px;
 }
 #bar {
@@ -71,7 +67,6 @@ li {
   padding-right: 30px;
   height: 30px;
   align-items: center;
-  /*border: 1px solid purple; */
 }
 #products {
     height: 18px;
@@ -122,7 +117,6 @@ li {
     border-bottom: 3px solid #1A73E8;
 }
 .nav_2a {
-  /*  border: 1px solid yellowgreen; */
     display: flex;
     flex-direction: row;
     align-items: center; 
@@ -134,7 +128,6 @@ li {
     display: flex;
     flex-direction: row;
     align-items: center;
-  /*  border: 1px solid aqua; */
     width: 100%;
     justify-content: flex-start;
 }
@@ -149,11 +142,9 @@ li {
     color: grey;
     font-family: arial, sans-serif;
     font-size: 13px;
-  /*  border: 1px solid orange; */
 }
 .how {
     padding-bottom: 0px;
-    /*border: 1px solid red;*/
     height: 35px;
 }
 .wix_ad h2 {
@@ -165,7 +156,6 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: flex-start; 
-    /*border: 1px solid skyblue; */
    }
 h2 a {
     font-size: 18px;
@@ -227,13 +217,11 @@ h4 {
     align-items: center;
     justify-content: flex-start;
     width: 640px;
-  /*border: 1px solid darkgoldenrod;*/
     margin-left: 170px;
     padding-left: 0;
     height: 60px;
 }
 #free_build {
-   /* border: 1px solid blue;*/
     margin-top: 0px;
     width: 50%;
     margin-left: 0;
@@ -242,7 +230,6 @@ h4 {
 #free_host{
     margin-top: 0px;
     width: 50%;
-    /*border: 1px solid palegreen;*/
 }
 #free_build h2 {
     margin-left: 0;  
@@ -333,7 +320,6 @@ h4 {
     border-radius: 8px;
     margin-top: 23px;
     margin-left: 150px;
-    /*padding-left: 16px;*/
     width: 673px;   
 }
 .ask h2 {
@@ -379,7 +365,6 @@ h4 {
 }
 .zero {
     margin-top: 24px;
-    /*border: 1px solid red; */
     margin-left: 155px;
     width: 700px;
 }
@@ -408,7 +393,6 @@ h4 {
 }
 .bottom_links {
     width: 592px;
-   /*border: 1px solid grey;*/
     margin-left: 155px;
     display: flex;
     flex-direction: row;
@@ -420,7 +404,6 @@ h4 {
     line-height: 30px;
 }
 .left_bottom {
-    /*border: 1px solid seagreen;*/
     width: 280px;
 }
 .left_bottom a {
@@ -432,9 +415,6 @@ h4 {
 .left_bottom a:hover {
     text-decoration: underline;
 }
-.right_bottom {
-   /* border: 1px solid aqua;*/
-}
 .right_bottom a {
     color: #1a0dab;
     text-decoration: none;
@@ -445,6 +425,7 @@ h4 {
     text-decoration: underline;
 }
 .long_google {
+    margin-top: 28px;
     margin-left: 295px;
     margin-bottom: 0;
 }
@@ -453,14 +434,13 @@ h4 {
     flex-direction: row;
     justify-content: space-between;
     margin-left: 327px;
-    border: 1px solid red;
     width: 280px;
+    margin-bottom: 30px;
 }
 .numbers {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /*border: 1px solid green;*/
     width: 200px;
     font-family: Arial, sans-serif;
     font-size: 13px;
@@ -488,7 +468,7 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    border: 1 px solid #e4e4e4;
+    border-top: 1px solid #e4e4e4;
     background: #f2f2f2;
     align-items: center;
     padding-left: 155px;
@@ -516,4 +496,31 @@ h4 {
 .footer_1 a {
     text-decoration: none;
     color: #5f6368;
+}
+.footer_1 a:hover {
+    color: #222;
+}
+.footer_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-top: 1px solid #e4e4e4;
+    background: #f2f2f2;
+    align-items: center;
+    padding-left: 155px;
+}
+.footer_links p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 285px;
+}
+.footer_links a {
+    color: #5f6368;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+.footer_links a:hover {
+    color: #222;
 }
