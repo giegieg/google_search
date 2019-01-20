@@ -82,10 +82,7 @@ li {
     margin-top: 5px;
 }    
 #sign_in {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
     text-decoration: none;
     font-family: arial, sans-serif;
     font-weight: bold;
@@ -168,7 +165,7 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: flex-start; 
-    border: 1px solid skyblue;
+    /*border: 1px solid skyblue; */
    }
 h2 a {
     font-size: 18px;
@@ -182,10 +179,6 @@ h2 a:hover {
     text-decoration: underline;
 }
 .ad_site {
-    /*display: flex;
-    flex-direction: row;
-    justify-content: flex-start; */
-   /* border: 1px solid olive; */
     margin-top: -5px;
     margin-bottom: 5px;
     margin-left: 155px;
@@ -234,13 +227,13 @@ h4 {
     align-items: center;
     justify-content: flex-start;
     width: 640px;
-    border: 1px solid darkgoldenrod;
+  /*border: 1px solid darkgoldenrod;*/
     margin-left: 170px;
     padding-left: 0;
     height: 60px;
 }
 #free_build {
-    border: 1px solid blue;
+   /* border: 1px solid blue;*/
     margin-top: 0px;
     width: 50%;
     margin-left: 0;
@@ -249,7 +242,7 @@ h4 {
 #free_host{
     margin-top: 0px;
     width: 50%;
-    border: 1px solid palegreen;
+    /*border: 1px solid palegreen;*/
 }
 #free_build h2 {
     margin-left: 0;  
@@ -319,7 +312,6 @@ h4 {
 .clickables {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-around;
     width: 230px;
     margin-left: 600px;
@@ -329,4 +321,48 @@ h4 {
     color: #777;
     font-size: 12px;
     font-family: Arial, sans-serif;
+    position: relative;
+    top: -5px;
+}
+.clickables img {
+    position: relative;
+    top: 6px;
+}
+.ask {
+    border: 1px solid rgb(223, 225, 229);
+    border-radius: 8px;
+    margin-top: 23px;
+    margin-left: 150px;
+    /*padding-left: 16px;*/
+    width: 673px;   
+}
+.ask h2 {
+    border-top: 1px solid rgb(223, 225, 229);
+    margin: 0;
+    padding-left: 16px;
+    height: 40px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    height: 36px;
+    line-height: 36px;
+}
+.ask h1 {
+    color: #808080;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    padding-left: 16px;
+}
+.ask a {
+    color: #222;
+    text-decoration: none;
+}
+.ask a:hover {
+    text-decoration: none;
+}
+.ask img {
+    position: absolute;
+    right: 460px;
+    padding-top: 10px;
 }
