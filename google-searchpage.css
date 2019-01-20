@@ -377,3 +377,24 @@ h4 {
 .fdbck:hover {
     text-decoration: underline;
 }
+.zero {
+    margin-top: 26px;
+    border: 1px solid red;
+    margin-left: 155px;
+    width: 700px;
+}
+.zero h2 {
+    margin: 0;
+
+}
+.zero p {
+    margin: 0;
+   
+}
+.zero h4 {
+    margin-left: 0px;
+}
+#grey_date {
+    color: #808080;
+    font-size: 13px;
+}
